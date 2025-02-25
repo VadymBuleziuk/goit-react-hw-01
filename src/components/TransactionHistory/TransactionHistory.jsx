@@ -1,8 +1,7 @@
 import Transactions from "../Transactions/Transactions";
-import transactions from "../transactions.json";
 import css from "./TransactionHistory.module.css";
 
-export default function TransactionHistory() {
+export default function TransactionHistory({ transactions }) {
   return (
     <>
       <p>Task 3</p>

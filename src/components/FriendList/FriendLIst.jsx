@@ -1,8 +1,7 @@
 import FriendListItem from "../FriendListItem/FriendListItem";
-import friends from "../friends.json";
 import css from "./FriendLIst.module.css";
 
-export default function FriendList() {
+export default function FriendList({ friends }) {
   return (
     <>
       <p>Task 2</p>
